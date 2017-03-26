@@ -1,1 +1,1 @@
-﻿<%@ ServiceHost Language="C#" Debug="true" Service="ProductService.DataPrepareService" %>
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="PrepareService.DataPrepareService" %>

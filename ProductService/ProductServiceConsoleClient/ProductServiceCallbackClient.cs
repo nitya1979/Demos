@@ -57,6 +57,7 @@ namespace ProductServiceConsoleClient
             proxy.ProcessData(data2);
             
             Console.WriteLine("Data 2 Started");
+            Console.ReadLine();
         }
 
         public void OnRecordProcessed(RecordData data)

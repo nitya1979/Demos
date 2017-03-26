@@ -15,7 +15,7 @@ namespace ProductServiceConsoleClient.ProductSvc {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="RecordData", Namespace="http://schemas.datacontract.org/2004/07/ProductService")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="RecordData", Namespace="http://schemas.datacontract.org/2004/07/PrepareService")]
     [System.SerializableAttribute()]
     public partial class RecordData : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
