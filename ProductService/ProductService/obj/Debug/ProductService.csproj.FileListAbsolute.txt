@@ -1,6 +1,0 @@
-c:\users\nitya\documents\visual studio 2015\Projects\ProductService\ProductService\bin\Debug\ProductService.dll.config
-c:\users\nitya\documents\visual studio 2015\Projects\ProductService\ProductService\bin\Debug\ProductService.dll
-c:\users\nitya\documents\visual studio 2015\Projects\ProductService\ProductService\bin\Debug\ProductService.pdb
-c:\users\nitya\documents\visual studio 2015\Projects\ProductService\ProductService\obj\Debug\ProductService.csprojResolveAssemblyReference.cache
-c:\users\nitya\documents\visual studio 2015\Projects\ProductService\ProductService\obj\Debug\ProductService.dll
-c:\users\nitya\documents\visual studio 2015\Projects\ProductService\ProductService\obj\Debug\ProductService.pdb

@@ -15,13 +15,15 @@ namespace PrepareService
         {
             IDataPrepareServiceCallBack callback = OperationContext.Current.GetCallbackChannel<IDataPrepareServiceCallBack>();
 
+            IContextChannel channel = OperationContext.Current.Channel;
+
             Task.Factory.StartNew(() =>
             {
                 foreach (RecordData row in records)
                 {
                     Thread.Sleep(1000);
                     
-                    if( OperationContext.Current.Channel.State == CommunicationState.Opened)
+                    if( channel.State == CommunicationState.Opened)
                         callback.OnRecordProcessed(row);    
                 }
             });

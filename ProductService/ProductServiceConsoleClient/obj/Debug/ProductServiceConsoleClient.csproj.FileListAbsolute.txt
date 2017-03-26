@@ -1,9 +1,0 @@
-c:\users\nitya\documents\visual studio 2015\Projects\ProductService\ProductServiceConsoleClient\bin\Debug\ProductServiceConsoleClient.exe.config
-c:\users\nitya\documents\visual studio 2015\Projects\ProductService\ProductServiceConsoleClient\bin\Debug\ProductServiceConsoleClient.exe
-c:\users\nitya\documents\visual studio 2015\Projects\ProductService\ProductServiceConsoleClient\bin\Debug\ProductServiceConsoleClient.pdb
-c:\users\nitya\documents\visual studio 2015\Projects\ProductService\ProductServiceConsoleClient\obj\Debug\ProductServiceConsoleClient.csprojResolveAssemblyReference.cache
-c:\users\nitya\documents\visual studio 2015\Projects\ProductService\ProductServiceConsoleClient\obj\Debug\ProductServiceConsoleClient.exe
-c:\users\nitya\documents\visual studio 2015\Projects\ProductService\ProductServiceConsoleClient\obj\Debug\ProductServiceConsoleClient.pdb
-C:\Users\nitya\Source\Repos\Demos\ProductService\ProductServiceConsoleClient\bin\Debug\ProductServiceConsoleClient.exe.config
-C:\Users\nitya\Source\Repos\Demos\ProductService\ProductServiceConsoleClient\obj\Debug\ProductServiceConsoleClient.exe
-C:\Users\nitya\Source\Repos\Demos\ProductService\ProductServiceConsoleClient\obj\Debug\ProductServiceConsoleClient.pdb
