@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/MultiSubscrition" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/MultiSubscrition" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ProjectDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProjectID" type="xs:int" />
+      <xs:element minOccurs="0" name="ReleaseDate" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ProjectDetail" nillable="true" type="tns:ProjectDetail" />
+  <xs:complexType name="ArrayOfTaskDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="TaskDetail" nillable="true" type="tns:TaskDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTaskDetail" nillable="true" type="tns:ArrayOfTaskDetail" />
+  <xs:complexType name="TaskDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CompletedDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DueDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="IsComplete" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Priority" type="tns:Priority" />
+      <xs:element minOccurs="0" name="ProjectID" type="xs:int" />
+      <xs:element minOccurs="0" name="Summary" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TaskId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TaskDetail" nillable="true" type="tns:TaskDetail" />
+  <xs:simpleType name="Priority">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Low" />
+      <xs:enumeration value="Medium" />
+      <xs:enumeration value="High" />
+      <xs:enumeration value="Critical" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Priority" nillable="true" type="tns:Priority" />
+</xs:schema>

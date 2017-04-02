@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="fb1cb8c3-0b87-43bb-a183-381e1a3f03f6" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/MultiSubscriptionHost/KanbanService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="KanbanService.xsd" MetadataType="Schema" ID="e71726ce-a769-45e6-8a79-8826629406fc" SourceId="1" SourceUrl="http://localhost/MultiSubscriptionHost/KanbanService.svc?xsd=xsd1" />
+    <MetadataFile FileName="KanbanService.wsdl" MetadataType="Wsdl" ID="88a20e14-e3ee-4c6a-b861-905196452cb9" SourceId="1" SourceUrl="http://localhost/MultiSubscriptionHost/KanbanService.svc?wsdl" />
+    <MetadataFile FileName="KanbanService.disco" MetadataType="Disco" ID="d9ad1509-214a-43ec-92b1-ee1a6471308a" SourceId="1" SourceUrl="http://localhost/MultiSubscriptionHost/KanbanService.svc?disco" />
+    <MetadataFile FileName="KanbanService1.xsd" MetadataType="Schema" ID="481cffdb-1576-4494-afb7-f2017784a345" SourceId="1" SourceUrl="http://localhost/MultiSubscriptionHost/KanbanService.svc?xsd=xsd2" />
+    <MetadataFile FileName="KanbanService2.xsd" MetadataType="Schema" ID="4b4cbc84-132b-4d97-bbdb-279b12f678c3" SourceId="1" SourceUrl="http://localhost/MultiSubscriptionHost/KanbanService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
